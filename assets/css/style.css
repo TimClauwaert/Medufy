@@ -49,6 +49,12 @@ a:focus {
   background-color: #00C78C;
   letter-spacing: 2px;
 }
+a#btn-green-nav{
+  color: #fff;
+  background-color: #00C78C;
+  letter-spacing: 2px;
+  margin-left: 25px;
+}
 .btn-blue:hover,
 .btn-blue:focus {
   color: #fff;
@@ -103,7 +109,7 @@ a:focus {
   margin-right: 10px;
 }
 .navbar-default .navbar-brand {
-  font-weight: 100;
+  font-weight: 300;
   text-transform: uppercase;
   font-size: 28px;
 }
@@ -191,6 +197,11 @@ a:focus {
 #work .heading p { margin-bottom: 60px }
 .feature{
   padding: 40px 0;
+}
+.dropshadow {
+  -moz-box-shadow: 1px -1px 3px #0d2333;
+  -webkit-box-shadow: 1px -1px 3px #0d2333;
+  box-shadow: 1px -1px 3px #0d2333;
 }
 #dashboard_png{
   width: 90%;
@@ -363,7 +374,7 @@ a:focus {
   padding: 40px 0;
   color: #ccc;
   text-align: center;
-  background-color: #2a3940;
+  background-color: #1b9ed9;
 }
 #footer a,
 #footer a:hover,
